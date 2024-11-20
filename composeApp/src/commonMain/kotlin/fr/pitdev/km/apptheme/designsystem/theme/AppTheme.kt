@@ -7,8 +7,8 @@ import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import apptheme_km.composeapp.generated.resources.Montserrat_VariableFont_wght
-import apptheme_km.composeapp.generated.resources.Oswald_VariableFont_wght
+import apptheme_km.composeapp.generated.resources.Montserrat_Regular
+import apptheme_km.composeapp.generated.resources.Oswald_Regular
 import apptheme_km.composeapp.generated.resources.Res
 import org.jetbrains.compose.resources.Font
 
@@ -40,12 +40,12 @@ val baseline = Typography()
 
 @Composable
 fun bodyFontFamily() = FontFamily(
-    Font(resource = Res.font.Montserrat_VariableFont_wght, weight = FontWeight.Normal),
+    Font(resource = Res.font.Montserrat_Regular, weight = FontWeight.Normal),
 )
 
 @Composable
 fun displayFontFamily() = FontFamily(
-    Font(resource = Res.font.Oswald_VariableFont_wght, weight = FontWeight.Normal)
+    Font(resource = Res.font.Oswald_Regular, weight = FontWeight.Normal)
 )
 
 @Composable
