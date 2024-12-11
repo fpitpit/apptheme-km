@@ -2,6 +2,9 @@
 
 This repository provides a working example of how to implement Android's dynamic colors in a Kotlin Multiplatform Compose application. This allows your app to adapt its color scheme to the user's wallpaper on Android, while maintaining a default theme for other platforms like iOS, desktop, and web.
 
+[Handling Android dynamic colors in a Kotlin Multiplatform Compose app](https://medium.com/publicis-sapient-france/handling-android-dynamic-colors-in-a-kotlin-multiplatform-compose-app-ebdc7986590d)
+
+
 **Key Features:**
 
 * **Dynamic Colors on Android:** Utilizes Android 12+'s dynamic color capability to extract colors from the user's wallpaper and apply them to the app's theme.
